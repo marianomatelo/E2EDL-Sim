@@ -18,7 +18,6 @@ With photo-realistic simulators like AirSim, it is possible to collect a large a
 These models can then be fine tuned using a comparably lesser amount of real-world data and used on actual cars. This technique is called **Behavioral Cloning**. 
 
 ### ToDo
-
 - [x] Run on Python 3.7 with 2.+ TensorFlow
 - [ ] Bridge behaviour
 - [ ] Hills behaviour
@@ -32,7 +31,6 @@ These models can then be fine tuned using a comparably lesser amount of real-wor
 - Tensorflow 2.3.0
 
 ### How to run
-
 - 1-PrepareData.py
 
 - 2-TrainModel.py
@@ -42,17 +40,13 @@ These models can then be fine tuned using a comparably lesser amount of real-wor
 - 3-TestModel.py
 
 ### Dataset
-
 [Download](https://aka.ms/AirSimTutorialDataset)
 
 ### Cookbook
-
 [Build Package](https://airsimtutorialdataset.blob.core.windows.net/e2edl/AD_Cookbook_AirSim.7z)
 
 ### AirSim
-
 [AirSim](https://github.com/Microsoft/AirSim)
  
 ### Tutorials
-
 [MS tutorials](https://github.com/microsoft/AutonomousDrivingCookbook)
