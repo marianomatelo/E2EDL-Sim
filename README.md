@@ -13,7 +13,8 @@ Since simulators can generate huge amounts of data, they are a perfect data sour
 
 ![](image1.png)
 
-With photo-realistic simulators like AirSim, it is possible to collect a large amount of data to train your autonomous driving models without having to use an actual car. 
+With photo-realistic simulators like AirSim, it is possible to collect a large amount of data to train your autonomous driving models without having to use an actual car.
+ 
 These models can then be fine tuned using a comparably lesser amount of real-world data and used on actual cars. This technique is called **Behavioral Cloning**. 
 
 ### ToDo
@@ -25,12 +26,12 @@ These models can then be fine tuned using a comparably lesser amount of real-wor
 - [ ] Different environments
 - [ ] Dynamic speed
 
-## Libraries
+### Libraries
 - Python 3.7
 - Keras 2.1.2
 - Tensorflow 2.3.0
 
-## How to run
+### How to run
 
 - 1-PrepareData.py
 
@@ -40,18 +41,18 @@ These models can then be fine tuned using a comparably lesser amount of real-wor
 
 - 3-TestModel.py
 
-## Dataset
+### Dataset
 
 [Download](https://aka.ms/AirSimTutorialDataset)
 
-## Cookbook
+### Cookbook
 
 [Build Package](https://airsimtutorialdataset.blob.core.windows.net/e2edl/AD_Cookbook_AirSim.7z)
 
-## AirSim
+### AirSim
 
 [AirSim](https://github.com/Microsoft/AirSim)
  
-## Tutorials
+### Tutorials
 
 [MS tutorials](https://github.com/microsoft/AutonomousDrivingCookbook)
