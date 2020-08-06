@@ -1,13 +1,13 @@
 # Autonomous Driving End-to-End Deep Learning
 
-![](.gif)
+![](driving.gif)
 
 ## End-to-End Deep Learning
-**End-to-end deep learning* is a modeling strategy that is a response to the success of deep neural networks. 
-Unlike traditional methods, this strategy is **not built on feature engineering**. Instead, it leverages the power of **deep neural networks** to harness the incredible potential of large amounts of data. 
+**End-to-end deep learning** is a modeling strategy that uses **deep neural networks** with large amounts of data
+Unlike traditional methods, this strategy is **not built on feature engineering**. 
 It is closer to a human-like learning approach than traditional ML as it **lets a neural network map raw input to direct output**. 
 
-A big downside to this approach is that it **requires a very large amount of training data** which makes it unsuitable for many common applications. 
+It **requires a very large amount of training data** which makes it unsuitable for many common applications. 
 
 Since simulators can generate huge amounts of data, they are a perfect data source for end-to-end deep learning algorithms. 
 
