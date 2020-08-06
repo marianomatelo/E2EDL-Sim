@@ -21,9 +21,9 @@ These models can then be fine tuned using a comparably lesser amount of real-wor
 - [x] Run on Python 3.7 with 2.+ TensorFlow
 - [ ] Bridge behaviour
 - [ ] Hills behaviour
-- [ ] Different vehicles
-- [ ] Different environments
+- [ ] Record more data from front camera
 - [ ] Dynamic speed
+- [ ] City environment with traffic and traffic rules
 
 ### Libraries
 - Python 3.7

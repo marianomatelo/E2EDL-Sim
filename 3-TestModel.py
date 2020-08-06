@@ -58,10 +58,10 @@ if __name__ == '__main__':
     while (True):
         car_state = client.getCarState()
 
-        # if (car_state.speed < 5):
-        #     car_controls.throttle = 1.0
-        # else:
-        #     car_controls.throttle = 0.0
+        if (car_state.speed < 5):
+            car_controls.throttle = 1.0
+        else:
+            car_controls.throttle = 0.0
 
         image_buf[0] = get_image()
         state_buf[0] = np.array([car_controls.steering, car_controls.throttle, car_controls.brake, car_state.speed])
